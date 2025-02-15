@@ -6,6 +6,7 @@ taskList = []
 date=datetime.datetime.now()
 currentDate = datetime.datetime.now()
 dueDate = datetime.datetime(2017, 5, 16, 8, 21, 10)
+# need to update this with vaeriables
 difference = currentDate - dueDate
 minutes = difference.total_seconds() / 60
 print("Difference is" + str(difference))
