@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <css>
+
+        </css>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Schedule</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js for Pie Chart -->
+</head>
+<body>
+
+    <h1>Calendar Scheduler</h1>
+
+    <!-- Textbox for adding events -->
+    <input type="text" id="eventInput" placeholder="Enter event name...">
+    <button class="btn" onclick="addEvent()">Add Event</button>
+
+    <!-- Pie Chart Section -->
+    <h2>Time Distribution</h2>
+    <canvas id="timeChart"></canvas>  <!-- This is where the pie chart will appear -->
+
+    <!-- List of events -->
+    <ul id="eventList"></ul>
+
+    <script src="functions.js"></script> <!-- External JavaScript -->
+</body>
+</html>
