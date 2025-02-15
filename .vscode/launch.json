@@ -8,7 +8,7 @@
             "name": "Launch Chrome",
             "request": "launch",
             "type": "chrome",
-            "url": "localhost:8080",
+            "url": "about:blank",
             "webRoot": "${workspaceFolder}"
         },
         {
