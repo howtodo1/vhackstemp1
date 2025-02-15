@@ -18,6 +18,7 @@ def pie_chart(time_spent): # time_spent is a list:  time_spent = [class1, class2
 def line_graph(last7days): #last7days is a list of the time spent on each for past 7 days 
     #last7days = [[class1, class2, class3, ...], [], [], []] where each [] is a list of time spent each day
     
+
     print()
 
 
