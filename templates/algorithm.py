@@ -14,14 +14,19 @@ print("in minuteds, this is " + str(minutes))
 
 current = [date.minute, datetime.date]
 
-def importance_calc(time, difficulty, importance,):
-    taskList.insert(1, [time, difficulty, importance])
-    weight = 5*importance + 10/(time+1)
+def weight_calc(minutes, difficulty, importance,):
+    taskList.insert(1, [minutes, difficulty, importance])
+    firstWeght = importance*difficulty*24*60*30/100
+    weight = 4*importance/10 + 3*difficulty/10 + 3*minutes/firstWeght
     print(taskList, "\n", weight)
     print(current)
     #print(currentMin)
+    return weight
 
-importance_calc(90, 9, 8)
+weight_calc(minutes, 10, 10)
+
+    
+
 
     
 
