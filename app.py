@@ -13,3 +13,4 @@ def hello_world():
 # importance is the urgency of the task, from 1 to 10
 def importance_calc(time, difficulty, importance)
     taskList.insert([time, difficulty, importance])
+    
